@@ -29,15 +29,12 @@
 //@end
 
 @interface GameViewController ()
-@property (weak, nonatomic) IBOutlet UIButton *connect;
-@property (weak, nonatomic) IBOutlet UIButton *disconnect;
-@property (weak, nonatomic) IBOutlet UITextField *txtMessage;
 
 @end
 
 
 @implementation GameViewController
-
+#pragma -mark button
 
 
 #pragma -mark MVC-lifeCycle

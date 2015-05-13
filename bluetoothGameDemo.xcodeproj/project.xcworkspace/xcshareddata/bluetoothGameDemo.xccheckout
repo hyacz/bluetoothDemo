@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>758CF1F6-AFA1-40B2-AD87-BCB638880ECA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>75791839FCF661960BD7EBE193958376AE96597E</key>
+		<string>https://github.com/hyacz/bluetoothDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>bluetoothGameDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>75791839FCF661960BD7EBE193958376AE96597E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hyacz/bluetoothDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>75791839FCF661960BD7EBE193958376AE96597E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>75791839FCF661960BD7EBE193958376AE96597E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>bluetoothGameDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

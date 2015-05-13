@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <SpriteKit/SpriteKit.h>
+@import MultipeerConnectivity;
+
 
 @interface GameViewController : UIViewController
 

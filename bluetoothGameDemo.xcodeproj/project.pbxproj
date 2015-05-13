@@ -14,6 +14,8 @@
 		942A0B6A1B0337B8005B909D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942A0B691B0337B8005B909D /* Images.xcassets */; };
 		942A0B6D1B0337B8005B909D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942A0B6B1B0337B8005B909D /* LaunchScreen.xib */; };
 		942A0B791B0337B8005B909D /* bluetoothGameDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 942A0B781B0337B8005B909D /* bluetoothGameDemoTests.m */; };
+		942A0B841B035F50005B909D /* ConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942A0B831B035F50005B909D /* ConnectionsViewController.m */; };
+		942A0B871B0363E9005B909D /* MCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 942A0B861B0363E9005B909D /* MCManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		942A0B721B0337B8005B909D /* bluetoothGameDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bluetoothGameDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		942A0B771B0337B8005B909D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		942A0B781B0337B8005B909D /* bluetoothGameDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bluetoothGameDemoTests.m; sourceTree = "<group>"; };
+		942A0B821B035F50005B909D /* ConnectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionsViewController.h; sourceTree = "<group>"; };
+		942A0B831B035F50005B909D /* ConnectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionsViewController.m; sourceTree = "<group>"; };
+		942A0B851B0363E9005B909D /* MCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCManager.h; sourceTree = "<group>"; };
+		942A0B861B0363E9005B909D /* MCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,10 @@
 				942A0B631B0337B8005B909D /* GameViewController.h */,
 				942A0B641B0337B8005B909D /* GameViewController.m */,
 				942A0B661B0337B8005B909D /* Main.storyboard */,
+				942A0B851B0363E9005B909D /* MCManager.h */,
+				942A0B861B0363E9005B909D /* MCManager.m */,
+				942A0B821B035F50005B909D /* ConnectionsViewController.h */,
+				942A0B831B035F50005B909D /* ConnectionsViewController.m */,
 				942A0B691B0337B8005B909D /* Images.xcassets */,
 				942A0B6B1B0337B8005B909D /* LaunchScreen.xib */,
 				942A0B571B0337B7005B909D /* Supporting Files */,
@@ -219,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				942A0B871B0363E9005B909D /* MCManager.m in Sources */,
+				942A0B841B035F50005B909D /* ConnectionsViewController.m in Sources */,
 				942A0B651B0337B8005B909D /* GameViewController.m in Sources */,
 				942A0B5D1B0337B8005B909D /* AppDelegate.m in Sources */,
 				942A0B5A1B0337B8005B909D /* main.m in Sources */,
