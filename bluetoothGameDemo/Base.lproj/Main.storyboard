@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LVB-YS-i5n">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="CtS-rA-C9T">
+            <objects>
+                <viewController id="LVB-YS-i5n" customClass="GameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PCf-gQ-wO7"/>
+                        <viewControllerLayoutGuide type="bottom" id="b3d-qh-BLL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bdc-N1-crn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gcs-Oi-jJ6">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjN-nO-Fv7">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Send">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLP-Ko-mnh">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Connect">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTL-TA-5Ut">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Disconnect">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        <constraints>
+                            <constraint firstItem="XTL-TA-5Ut" firstAttribute="top" secondItem="fjN-nO-Fv7" secondAttribute="bottom" constant="8" id="8Da-GL-8iP"/>
+                            <constraint firstItem="QLP-Ko-mnh" firstAttribute="top" secondItem="fjN-nO-Fv7" secondAttribute="bottom" constant="8" id="Lzz-lH-pfr"/>
+                            <constraint firstItem="gcs-Oi-jJ6" firstAttribute="top" secondItem="PCf-gQ-wO7" secondAttribute="bottom" constant="8" id="PRc-08-Zs8"/>
+                            <constraint firstItem="gcs-Oi-jJ6" firstAttribute="leading" secondItem="bdc-N1-crn" secondAttribute="leadingMargin" id="Xgw-wX-H9E"/>
+                            <constraint firstItem="XTL-TA-5Ut" firstAttribute="trailing" secondItem="bdc-N1-crn" secondAttribute="trailingMargin" id="bIS-74-vyD"/>
+                            <constraint firstItem="QLP-Ko-mnh" firstAttribute="leading" secondItem="bdc-N1-crn" secondAttribute="leadingMargin" id="gH8-8A-X3B"/>
+                            <constraint firstItem="fjN-nO-Fv7" firstAttribute="top" secondItem="gcs-Oi-jJ6" secondAttribute="bottom" constant="8" id="kha-p5-0dg"/>
+                            <constraint firstItem="fjN-nO-Fv7" firstAttribute="trailing" secondItem="bdc-N1-crn" secondAttribute="trailingMargin" id="pnP-ul-hS4"/>
+                            <constraint firstItem="gcs-Oi-jJ6" firstAttribute="trailing" secondItem="bdc-N1-crn" secondAttribute="trailingMargin" id="ryJ-R1-rhT"/>
+                            <constraint firstItem="fjN-nO-Fv7" firstAttribute="leading" secondItem="bdc-N1-crn" secondAttribute="leadingMargin" id="tLs-7S-wzx"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="gcs-Oi-jJ6"/>
+                                <exclude reference="fjN-nO-Fv7"/>
+                                <exclude reference="QLP-Ko-mnh"/>
+                                <exclude reference="XTL-TA-5Ut"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="PRc-08-Zs8"/>
+                                <exclude reference="Xgw-wX-H9E"/>
+                                <exclude reference="ryJ-R1-rhT"/>
+                                <exclude reference="kha-p5-0dg"/>
+                                <exclude reference="pnP-ul-hS4"/>
+                                <exclude reference="tLs-7S-wzx"/>
+                                <exclude reference="Lzz-lH-pfr"/>
+                                <exclude reference="gH8-8A-X3B"/>
+                                <exclude reference="8Da-GL-8iP"/>
+                                <exclude reference="bIS-74-vyD"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="gcs-Oi-jJ6"/>
+                                <include reference="fjN-nO-Fv7"/>
+                                <include reference="QLP-Ko-mnh"/>
+                                <include reference="XTL-TA-5Ut"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="PRc-08-Zs8"/>
+                                <include reference="Xgw-wX-H9E"/>
+                                <include reference="ryJ-R1-rhT"/>
+                                <include reference="kha-p5-0dg"/>
+                                <include reference="pnP-ul-hS4"/>
+                                <include reference="tLs-7S-wzx"/>
+                                <include reference="Lzz-lH-pfr"/>
+                                <include reference="gH8-8A-X3B"/>
+                                <include reference="8Da-GL-8iP"/>
+                                <include reference="bIS-74-vyD"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="connect" destination="QLP-Ko-mnh" id="vqH-sr-Rgp"/>
+                        <outlet property="disconnect" destination="XTL-TA-5Ut" id="C3t-aW-mxE"/>
+                        <outlet property="txtMessage" destination="gcs-Oi-jJ6" id="UCB-Eb-b62"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="btX-cZ-eVz" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="246" y="344.25"/>
+        </scene>
+    </scenes>
+</document>
